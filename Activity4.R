@@ -32,7 +32,7 @@ tidy_reviews %>%
   arrange(desc(count))
 
 # 4. Look up review #1053 to see what the person said about the breakfast
-reviews_corp[[1053]]
+reviews_corp[[   ]]
 
 # 5. Practice. Filter and sort by the documents that mention location most often. View the first review in the list.
 tidy_reviews %>% 

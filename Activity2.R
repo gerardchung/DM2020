@@ -27,7 +27,7 @@ docvars(reviews_corp)
 reviews_corp[[2]]
 
 # 5. Practice. See the text of the 100th review in the dataset:
-reviews_corp[[100]]
+
 
 
 # 6. Tokenize the corpus & clean the tokens: remove stop words, punctuation, convert to lowercase, stem endings

@@ -42,7 +42,7 @@ reviews_corp[[3769]]
 
 # 4. Practice. Examine the text of the review with the most positive words. 
 
-reviews_corp[[1763]]
+
 
 # II. Sentiment Analysis using SentimentAnalysis package functions.
 
