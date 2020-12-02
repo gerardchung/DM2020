@@ -1,7 +1,6 @@
 # Data Matters 2020: Text Analysis with R
-Files for the Text Analysis with R Data Matters Course
+This repository contains the files for the Text Analysis with R Data Matters Course. If you are signed up for this course, please download the files. To download the files, please do the following:
 
-To Download these files for the course:
-1. click the green Code button above
-2. select Download ZIP.
+1. Click the green Code button above
+2. Select Download ZIP.
 
