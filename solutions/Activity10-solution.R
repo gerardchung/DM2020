@@ -53,11 +53,11 @@ confusionMatrix(tab_class, mode = "everything")
 
 # II. Practice. Try to predict political party of speeches using Naive Bayes Classifier
 
-# 10. Practice. Create a corpus subset of SOTU addresses from the 20th century.
-corpus20 <- corpus_subset(docs_corp, year >= 1900 & year <=2000)
+# 10. Practice. Create a corpus subset of SOTU addresses from the 20th century. starting with FDR.
+corpus20 <- corpus_subset(docs_corp, year >= 1934 & year <=2000)
 
 # 11. Practice. Assign each speech with a party affiliation.
-docvars(corpus20)$party <- ifelse(docvars(corpus20)$name %in% c("william j clinton", "jimmy carter", "lyndon b johnson", "john f kennedy", "harry s truman", "franklin d roosevelt", "woodrow wilson"), "DEM", "REP")
+docvars(corpus20)$party <- ifelse(docvars(corpus20)$name %in% c("william j clinton", "jimmy carter", "lyndon b johnson", "john f kennedy", "harry s truman", "franklin d roosevelt"), "DEM", "REP")
 docvars(corpus20)
 
 # 12. Practice. Generate a set of random numbers to create training and test sets.
