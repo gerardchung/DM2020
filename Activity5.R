@@ -54,7 +54,7 @@ sotu_dfm <- dfm(docs_corp, remove_punct = TRUE, remove_numbers = TRUE,  remove =
 sotu_tf_idf <- dfm_tfidf(sotu_dfm)
 
 
-# 8. See most distinctive words for Lincoln's 1863 SOTU address (# 3 in the list):
+# 8. See most distinctive words for Obama's 2011 SOTU address (# 3 in the list):
 
 topfeatures(sotu_tf_idf[3,])
 
